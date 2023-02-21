@@ -1,0 +1,20 @@
+.pagination {
+    display: inline-block;
+   }
+  
+  .pagination a {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid rgb(100, 100, 100);
+  }
+
+  .pageItemButton:focus{
+    background-color: rgb(94, 119, 175);
+  }
+  
+  .pagination a:hover {background-color: rgb(94, 119, 175);}
+

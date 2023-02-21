@@ -1,0 +1,17 @@
+.header {
+    background-color: #202e37;
+    box-shadow: 1px 10px 5px 0px rgba(33, 35, 39, 0.57);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.headerText {
+    color: white;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: 800;
+}
