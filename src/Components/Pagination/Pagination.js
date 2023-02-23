@@ -12,7 +12,7 @@ export const Pagination = ({totalPosts, pageSize, paginate}) => {
   
     
   return (
-    <nav >
+    <nav>
         <ul className='pagination'>
             {
                 pageNumbers.map(page => (

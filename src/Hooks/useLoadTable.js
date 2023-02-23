@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-//function to load the table with data from API, using url as a field so the hook is more versatile
-
 export default function useLoadTable(url) {
 
      //useState to save states of posts, loading and if necessary error
@@ -15,7 +13,7 @@ export default function useLoadTable(url) {
             setLoading(true);
                 axios.get(url)
                 .then((response) => { //.then sikrer at koden venter på dataen, og dermed ikke har noen udefinerte felter som kan lede til at applikasjonen kræsjer
-                    console.log(response.data.Data.Data)
+                    console.log(response)
                     const newResponse = response.data.Data.Data
                     setData(newResponse)
                 } )
